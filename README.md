@@ -34,20 +34,20 @@ looks complete without it.
 ## Deploy to GitHub Pages
 
 1. Push this folder's contents to the root of your
-   `iyajuddinparosh.github.io` repository (or any repository, then enable
+   `username.github.io` repository (or any repository, then enable
    Pages for it).
 2. In the repository, go to **Settings → Pages**, set the source branch to
    `main` and the folder to `/ (root)`.
-3. Your site will be live at `https://iyajuddinparosh.github.io/`.
+3. Your site will be live at `https://username.github.io/`.
 
 ## Custom domain (`iyajuddin.pro.bd`)
 
 1. Add a `CNAME` file at the project root containing:
    ```
-   iyajuddin.pro.bd
+   user.pro.bd
    ```
 2. At your DNS provider, point the domain to GitHub Pages (a `CNAME` record
-   to `iyajuddinparosh.github.io`, or the GitHub Pages `A` records for an
+   to `username.github.io`, or the GitHub Pages `A` records for an
    apex domain).
 3. In **Settings → Pages**, add the custom domain and enable **Enforce
    HTTPS** once DNS has propagated.
